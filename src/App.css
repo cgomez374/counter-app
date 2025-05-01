@@ -5,13 +5,13 @@
   width: 90%;
   height: 500px;
   margin: 20px auto;
-  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-size: 10rem;
+  font-size: 15rem;
+  color: #FFE4B5;
 
 }
 
@@ -26,10 +26,14 @@
 }
 
 .counter-section .button-container button {
-  /* background-color: red; */
-  width: 70px;
-  height: 40px;
+  background-color: #FFE4B5;
+  color: black;
+  border: none;
+  border-radius: 5%;
+  width: 90px;
+  height: 50px;
   padding: 1px;
   font-size: 16px;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
 }
